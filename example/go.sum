@@ -2,6 +2,8 @@ github.com/labulakalia/water v0.0.4 h1:igw8mqpbdNKrVKLYA+BYoJvqiOjO4aAaCBcEp0jSX
 github.com/labulakalia/water v0.0.4/go.mod h1:Rt5j0n1K2IHqMBgW/tsXLp1wt98kLSCD6krteM6s9Pc=
 github.com/plumk97/pip-go v0.0.0-20240115101247-57129213270e h1:Xh85B7nYmPGC+vEgO+zFnfnKEA2W1lYykU0pzcEgdGk=
 github.com/plumk97/pip-go v0.0.0-20240115101247-57129213270e/go.mod h1:M+G4M54n0iHI4PWxcKtFRms1CJh4KUxUDEg0GFsozxo=
+github.com/plumk97/pip-go v1.0.1 h1:ivsERYPH9/zQwjSSFSYQ0WnHDez3gUPiCSgRQHME4cg=
+github.com/plumk97/pip-go v1.0.1/go.mod h1:M+G4M54n0iHI4PWxcKtFRms1CJh4KUxUDEg0GFsozxo=
 golang.org/x/sys v0.16.0 h1:xWw16ngr6ZMtmxDyKyIgsE93KNKz5HKmMa3b8ALHidU=
 golang.org/x/sys v0.16.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=
 golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 h1:B82qJJgjvYKsXS9jeunTOisW56dUokqW/FOteYJJ/yg=
