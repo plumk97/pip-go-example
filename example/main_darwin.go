@@ -43,6 +43,7 @@ func createInterface() {
 		log.Fatalln(err)
 	}
 
+	pipgo.MTU = uint16(tunInterface.MTU)
 	packet := make([]byte, mtu)
 	for {
 		n, err := tunIface.Read(packet)
