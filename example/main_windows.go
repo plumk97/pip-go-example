@@ -15,6 +15,7 @@ import (
 
 	"github.com/labulakalia/water"
 	pipgo "github.com/plumk97/pip-go"
+	"golang.zx2c4.com/wintun"
 )
 
 var tunIface *water.Interface
@@ -23,6 +24,7 @@ func createInterface() {
 	var err error
 
 	installWintunDLL()
+	wintun.Uninstall()
 
 	// 建立tun网卡
 	tunIface, err = water.New(water.Config{
