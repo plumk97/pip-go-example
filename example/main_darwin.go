@@ -23,7 +23,7 @@ func createInterface() {
 	if err != nil {
 		log.Fatalln(err)
 	}
-	defer ifce.Close()
+	defer tunIface.Close()
 
 	// 设置网关地址
 	cmd := exec.Command("ifconfig",
@@ -43,7 +43,7 @@ func createInterface() {
 		log.Fatalln(err)
 	}
 
-	pipgo.MTU = uint16(tunInterface.MTU)
+	pipgo.MTU = uint16(mtu)
 	packet := make([]byte, mtu)
 	for {
 		n, err := tunIface.Read(packet)
